@@ -1,0 +1,10 @@
+/**
+ * The BuildInfo struct holds the constants for this build
+ */
+#include <string>
+
+struct BuildInfo {
+	static inline const std::string VERSION = "@PROJECT_VERSION@";
+	static inline const std::string COMMIT_SHA = "@COMMIT_SHA@";
+	static inline const std::string TIMESTAMP = "@TIMESTAMP@";
+};
